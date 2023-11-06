@@ -8,8 +8,8 @@ from Models.GradientBoost import GradientBoostTrain
 from Models.AdaBoost import AdaBoostTrain
 from tabulate import tabulate
 
-train_path = '14687271/labels/CSAW-M_train.csv'
-test_path = '14687271/labels/CSAW-M_test.csv'
+train_path = 'CSAW_M_Subset/labels/CSAW-M_train.csv'
+test_path = 'CSAW_M_Subset/labels/CSAW-M_test.csv'
 
 # Load Training Data
 df = pd.read_csv(train_path, sep=';')
