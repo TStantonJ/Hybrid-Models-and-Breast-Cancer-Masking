@@ -24,10 +24,14 @@ pip3 install -r general_requirements.txt
 
 ## Training and evaluation
 
-To training and test algorithms, run the following while in the CS6907AppliedMachineLearning directory:
+To training and test algorithms, run the following while in the Hybrid-Models-and-Breast-Cancer-Masking directory:
 ```bash
 python3 main.py
 ```
+
+Post run, the program should print out a table like:
+![alt text](Images/sample_output.png)
+
 ---
 
 ## CSAW-M Dataset
