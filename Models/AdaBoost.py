@@ -17,7 +17,7 @@ def AdaBoostTrain(**kwargs):
 
     # Calculate result 5 times for significance
     for i in range(5):
-        regr = AdaBoostRegressor(random_state=0)
+        regr = AdaBoostRegressor(random_state=0, learning_rate= 0.1)
         regr.fit(X_train, np.ravel(y_train))     
         y_pred = regr.predict(X_test)  
 

@@ -41,6 +41,11 @@ Post run, the program should print out a table like:
 - In the original CSAW-M dataset, the data is pre-split into test and train sets. To keep inline with their tests, we used the same test and train files.
 
 ---
+## Acknowledgement
+
+All classic model implementations(KNN.py, RBFSVM.py, LinearRegression.py, RandomForrest.py, GradientBoost.py, and AdaBoost.py) are based off code from [SciKit Learn](https://scikit-learn.org/stable/about.html).
+
+---
 
 ### Questions or suggestions?
 
